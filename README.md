@@ -5,7 +5,7 @@ A Fullstack Academy Project
 
 - Type a number between 1 - 100 into the input field and click "Go!" or `enter`
 
-- The program will tell you you need to guess higher or lower
+- The program will tell you if you need to guess higher or lower
 
 - You have 5 chances to guess the right number, otherwise you lose
 
