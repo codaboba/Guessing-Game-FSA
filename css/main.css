@@ -1,0 +1,61 @@
+body {
+    text-align: center;
+}
+
+ #app {
+    padding: 50px 0;
+    background: linear-gradient(0deg,rgba(238, 255, 0, 0.3),rgba(0, 204, 255, 0.3)), url(../images/math.png);
+    background-color: rgb(231, 231, 231);
+}
+#app > * {
+    padding: 10px 0 0 0;
+}
+
+h2 {
+    height: 40px;
+}
+#input-parent {
+    font-size:80px;
+}
+#display {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+#player-input {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+}
+.btn-success {
+    position: absolute;
+    bottom: -10px;
+    right: 0px;
+}
+.btn-lg {
+    border-radius: 50% !important;
+    height: 70px;
+    width: 70px;
+}
+
+ul {
+    padding: 0;
+}
+#guesses li {
+    display: inline;
+    border: solid 2px gray;
+    border-radius: 15%;
+    padding: 0 20px;
+    font-size: 50px;
+    background-color: white;
+}
+
+footer {
+    border-top: solid 2px black;
+    bottom: 0;
+}
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
